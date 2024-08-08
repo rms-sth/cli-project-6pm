@@ -11,9 +11,7 @@ import csv
 # git commit -m "Your commit message"
 # git push origin
 
-
-# hello world
-
+"""Simple CLI project."""
 def create_connection():
     try:
         con = sqlite3.connect("users.sqlite3")
